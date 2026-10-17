@@ -49,18 +49,27 @@ For the MLP I used a class weight of 3 for fraud and a decision threshold of 0.7
 
 ## Project structure
 
-- `code/`: All code files
-        - `EDA.ipynb`: cleaning, splitting and SMOTE
-        - `Logistic Regression.ipynb`
-        - `KNN.ipynb`
-        - `Random Forest.ipynb`
-        - `XGBoost.ipynb`
-        - `MLP.ipynb`
-        - `Model Comparisons.ipynb`: all models side by side
-        - `SHAP Comparison.ipynb`: which features drive predictions
-- `metrics/`: metrics and reports of each model
-        - `KNN/`, `MLP/`, `XGBoost/`, `logistic_regression/`, `random_forest/`
-- `models/`: saved models and scalers
+## Project Structure
+
+```
+.
+├── code/                           # All code files
+│   ├── EDA.ipynb                   # Cleaning, splitting and SMOTE
+│   ├── Logistic Regression.ipynb
+│   ├── KNN.ipynb
+│   ├── Random Forest.ipynb
+│   ├── XGBoost.ipynb
+│   ├── MLP.ipynb
+│   ├── Model Comparisons.ipynb     # All models side by side
+│   └── SHAP Comparison.ipynb       # Which features drive predictions
+├── metrics/                        # Metrics and reports of each model
+│   ├── KNN/
+│   ├── MLP/
+│   ├── XGBoost/
+│   ├── logistic_regression/
+│   └── random_forest/
+└── models/                         # Saved models and scalers
+```
 
 ## How to run it
 
